@@ -1,6 +1,7 @@
 // src/components/ChatBox.jsx
 import React, { useState, useEffect, useRef } from "react";
 import axios from "axios";
+import { toast } from 'react-toastify';
 
 const ChatBox = ({ familyId }) => {
   const [messages, setMessages] = useState([]);
